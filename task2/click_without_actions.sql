@@ -1,0 +1,1 @@
+SELECT click.* FROM click LEFT JOIN actions ON click.id = actions.click_id WHERE actions.click_id IS null;

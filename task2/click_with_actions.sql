@@ -1,0 +1,1 @@
+SELECT click.* FROM click JOIN actions ON click.id = actions.click_id;
