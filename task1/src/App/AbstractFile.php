@@ -5,25 +5,21 @@ namespace App;
 abstract class AbstractFile {
 
     /**
-     * @var string
-     * path to file
+     * @var string $path to file
      */
     protected string $filePath;
 
     /**
-     * @var string
-     * separator, could be custom
+     * @var string $separator, could be custom
      */
     protected string $separator = ",";
 
     /**
-     * @var string
-     * enclosure, could be custom
+     * @var string $enclosure, could be custom
      */
     protected string $enclosure = "\"";
     /**
-     * @var string
-     * escape, could be custom
+     * @var string $escape, could be custom
      */
     protected string $escape = "\\";
 
